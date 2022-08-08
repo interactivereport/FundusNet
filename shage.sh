@@ -14,4 +14,3 @@ conda activate /edgehpc/dept/compbio/users/whu1/envs/tmpenv
 python src/main_age.py --seed 101 --model eca_nfnet_l2 --imshape 390_wx --batch 16 --epoch 17  --lrate 3e-5 --loss_type MAE --pheno age --version $SLURM_ARRAY_TASK_ID --subsample 0 --r_degree 33
 #################  dm_nfnet_f2  cait_s24_384  eca_nfnet_l2 regnety_32 
 conda deactivate
-dgsgdsg
