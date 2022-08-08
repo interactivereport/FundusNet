@@ -7,8 +7,8 @@
 #SBATCH --ntasks-per-node=1 
 #SBATCH --cpus-per-task=4
 #SBATCH -a 0-5  ### 0-5
-#SBATCH -o age.regnety_32.s98.v%a.out
-#SBATCH -e age.regnety_32.s98.v%a.err
+#SBATCH -o age.regnety_32.s101.v%a.out
+#SBATCH -e age.regnety_32.s101.v%a.err
 module load anaconda3 
 conda activate /edgehpc/dept/compbio/users/whu1/envs/tmpenv
 python src/main_age.py --seed 101 --model regnety_32 --imshape 390_wx --batch 16 --epoch 17  --lrate 3e-5 --loss_type MAE --pheno age --version $SLURM_ARRAY_TASK_ID --subsample 0 --r_degree 33
