@@ -5,13 +5,13 @@ To to list:
 ### step 1
 Change seed number (shage.sh -> line 14 -> --seed)
 
-> Jake:  --seed 101
+Jake:  --seed 101
 
-> Jeron: --seed 102
+Jeron: --seed 102
 
-> Ye:    --seed 103
+Ye:    --seed 103
 
-> Talia: --seed 104
+Talia: --seed 104
 
 ### step 2
 Change model name (shage.sh -> line 14 -> --model). 
@@ -28,6 +28,7 @@ sbatch shage.sh
 ```
 
 In the end, your results (best_model_weights) will be saved in ``` /edgehpc/dept/compbio/users/whu1/fundusimage/result_public/model_wts ``` 
+
 For example, Jake will generate model_weights for 
 > data --seed 101
 > > --model dm_nfnet_f2  
