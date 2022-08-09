@@ -29,7 +29,7 @@ sbatch shage.sh
 
 In the end, your results (best_model_weights) will be saved in ``` /edgehpc/dept/compbio/users/whu1/fundusimage/result_public/model_wts ``` 
 
-For example, Jake will generate model_weights for 
+**For example**, Jake will generate model_weights for 
 > data --seed 101
 > > --model dm_nfnet_f2  
 > > --model eca_nfnet_l2  
