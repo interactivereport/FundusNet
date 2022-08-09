@@ -1,5 +1,5 @@
 # FundusNet
-To to list:
+To to:
 Run different CNN models on fundus image data (seed 101, 102, 103, 104 generated using cross-validation)
 
 ### step 1
