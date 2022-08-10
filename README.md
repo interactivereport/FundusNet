@@ -21,13 +21,12 @@ dm_nfnet_f2  eca_nfnet_l2  regnety_32  xcit_m_384  volo_d2_384  regnet_x_32gf
 ### step 3
 Run command line
 ```
-sbatch shage.sh
-```
-
+sbatch shage.sh  
+```  
 In the end, your results (best_model_weights) will be saved in ``` /edgehpc/dept/compbio/users/whu1/fundusimage/result_public/model_wts ``` 
 
 **For example**, Jake will generate model_weights for 
-> data --seed 101
+> data --seed 101  
 > > --model dm_nfnet_f2  
 > > --model eca_nfnet_l2  
 > > --model regnety_32  
