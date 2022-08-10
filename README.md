@@ -5,8 +5,7 @@ Run different CNN models on fundus image data (seed 101, 102, 103, 104 generated
 ### step 1
 Change seed number (shage.sh -> line 14 -> --seed)
 
-Jake:  --seed 101
-
+Jake:  --seed 101  
 Jeron: --seed 102
 
 Ye:    --seed 103
