@@ -3,8 +3,7 @@ To to:
 Run different CNN models on fundus image data (seed 101, 102, 103, 104 generated using cross-validation)
 
 ### step 1
-Change seed number (shage.sh -> line 14 -> --seed)
-
+Change seed number (shage.sh -> line 14 -> --seed)  
 - Jake:  --seed 101  
 - Jeron: --seed 102  
 - Ye:    --seed 103  
@@ -19,10 +18,7 @@ dm_nfnet_f2  eca_nfnet_l2  regnety_32  xcit_m_384  volo_d2_384  regnet_x_32gf
 ```
 
 ### step 3
-Run command line
-```
-sbatch shage.sh  
-```  
+Run command line ```sbatch shage.sh```
 In the end, your results (best_model_weights) will be saved in ``` /edgehpc/dept/compbio/users/whu1/fundusimage/result_public/model_wts ``` 
 
 **For example**, Jake will generate model_weights for 
