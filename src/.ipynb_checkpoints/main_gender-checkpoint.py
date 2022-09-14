@@ -32,9 +32,9 @@ if __name__ == '__main__':
     csv_dir = dirobj.get_csv_dir()
     output_dir = dirobj.get_output_dir()
     if args['subsample'] > 0 and args['subsample'] < 100:
-        model_out_name = os.path.join(output_dir, "model_wts", args['pheno']+"_"+args['model']+"_seed_"+args['seed']+"_v_"+args['version']+'_subsample'+str(args['subsample'])+".pth")
+        model_out_name = os.path.join(output_dir, args['pheno']+"_"+args['model']+"_seed_"+args['seed']+"_v_"+args['version']+'_subsample'+str(args['subsample'])+".pth")
     else:
-        model_out_name = os.path.join(output_dir, "model_wts", args['pheno']+"_"+args['model']+"_seed_"+args['seed']+"_v_"+args['version']+".pth")
+        model_out_name = os.path.join(output_dir, args['pheno']+"_"+args['model']+"_seed_"+args['seed']+"_v_"+args['version']+".pth")
     if os.path.exists(model_out_name): sys.exit(f'{model_out_name}  exists, please check your arguments')
 
     csv_files = {x: os.path.join(csv_dir, args['pheno']+"_inlier_seed_"+args['seed']+"_"+x+".csv") for x in ['train', 'val', 'test']}
