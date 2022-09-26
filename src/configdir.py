@@ -5,7 +5,7 @@ class Configdir:
     def __init__(self):
         self.csv_dir = '/edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/csv_traintest'
         # self.output_dir = './results/round3-jun-26/'
-        self.output_dir = '/edgehpc/dept/compbio/projects/UKBB_fundus/fundusNet_2022/results/model_ckpts'
+        self.output_dir = '/edgehpc/dept/compbio/users/whu1/fundusimage/result_public/model_wts'
         self.imgdirs = {'384': "/edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_384_380",
                         '384_384': "/edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_384_384",
                         '390_wx': '/edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_390_wx',
