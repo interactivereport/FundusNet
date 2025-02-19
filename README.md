@@ -8,5 +8,9 @@ Hu, W., Li, K., Gagnon, J., Wang, Y., Raney, T., Chen, J., Chen, Y., Okunuki, Y.
 
 Steps:
 1. git clone the repo
-2. run shgender.sh or shage.sh to run individual CNN or ViT models
-3. ensembe results by majority voting
+2. Execute either shgender.sh or shage.sh to run individual CNN or ViT models:
+  a. This process will split the image dataset into training and testing sets, train the CNN/ViT models on the training data, and evaluate them on the test data.
+  b. Users must provide the following inputs:
+    csv_file (string): Path to the CSV file containing annotations.
+    root_dir (string): Directory containing all images.
+3. Combine the results using majority voting for ensemble prediction.
