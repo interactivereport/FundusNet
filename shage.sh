@@ -6,7 +6,7 @@
 #SBATCH --nodes=1 
 #SBATCH --ntasks-per-node=1 
 #SBATCH --cpus-per-task=4
-#SBATCH -a 0-19  ### 0-5
+#SBATCH -a 0-19 
 #SBATCH -o age.regnety_32.s98.sub60.v%a.out
 #SBATCH -e age.regnety_32.s98.sub60.v%a.err
 module load anaconda3 
