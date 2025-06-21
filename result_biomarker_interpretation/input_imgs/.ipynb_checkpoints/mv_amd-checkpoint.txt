@@ -1,0 +1,4 @@
+mv 2047094_21016_0_0.png image_0_amd_1.png
+mv 5459756_21016_0_0.png image_1_amd_1.png
+mv 5579520_21015_0_0.png image_2_amd_1.png
+mv 6014511_21015_1_0.png image_3_amd_1.png

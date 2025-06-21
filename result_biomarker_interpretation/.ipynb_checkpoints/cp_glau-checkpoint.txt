@@ -1,0 +1,1 @@
+cp /edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_390_wx/5080812_21015_0_0.png input_imgs

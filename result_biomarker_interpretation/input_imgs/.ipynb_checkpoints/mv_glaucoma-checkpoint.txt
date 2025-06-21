@@ -1,0 +1,8 @@
+mv 5080812_21015_0_0.png image_0_glaucoma_1.png
+mv 4580924_21016_0_0.png image_1_glaucoma_1.png
+mv 3833961_21015_0_0.png image_2_glaucoma_1.png
+mv 1406645_21016_0_0.png image_3_glaucoma_1.png
+mv 5661076_21015_0_0.png image_4_glaucoma_0.png
+mv 2478229_21016_0_0.png image_5_glaucoma_0.png
+mv 1880220_21015_0_0.png image_6_glaucoma_0.png
+mv 2297786_21016_0_0.png image_7_glaucoma_0.png

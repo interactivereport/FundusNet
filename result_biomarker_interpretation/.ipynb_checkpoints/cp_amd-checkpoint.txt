@@ -1,0 +1,4 @@
+cp /edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_390_wx/2047094_21016_0_0.png input_imgs
+cp /edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_390_wx/5459756_21016_0_0.png input_imgs
+cp /edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_390_wx/5579520_21015_0_0.png input_imgs
+cp /edgehpc/dept/compbio/users/whu1/fundusimage/data_kli3/imgdata/fundusimage_390_wx/6014511_21015_1_0.png input_imgs
