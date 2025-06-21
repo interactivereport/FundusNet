@@ -7,8 +7,10 @@ FundusNet: a deep learning approach for identifying novel endophenotypes for neu
 Hu, W., Li, K., Gagnon, J., Wang, Y., Raney, T., Chen, J., Chen, Y., Okunuki, Y., Chen, W., & Zhang, B. (2025). FundusNet: A Deep-Learning Approach for Fast Diagnosis of Neurodegenerative and Eye Diseases Using Fundus Images. Bioengineering, 12(1), 57. https://doi.org/10.3390/bioengineering12010057
 
 ## Steps:
-1. git clone the repo
+1. git clone the repo \
    `git clone https://github.com/interactivereport/FundusNet.git`
+2. install packages \
+   `pip install -r requirements.txt`
 3. Execute either shgender.sh or shage.sh to run individual CNN or ViT models:\
    a. This process will split the image dataset into training and testing sets, train the CNN/ViT models on the training data, and evaluate them on the test data.\
    b. Users must provide the following inputs:\
