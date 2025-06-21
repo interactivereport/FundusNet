@@ -67,13 +67,13 @@ run_save_gcam_results(cam=cam,
 
 
     
-![png](tutorial_gradcam_result_interpretation_files/tutorial_gradcam_result_interpretation_2_1.png)
+![png](result_biomarker_interpretation/glaucoma_row_1_gcam.png)
     
 
 
 
     
-![png](tutorial_gradcam_result_interpretation_files/tutorial_gradcam_result_interpretation_2_2.png)
+![png](result_biomarker_interpretation/glaucoma_row_2_gcam.png)
     
 
 
