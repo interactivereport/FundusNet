@@ -14,6 +14,9 @@ Hu, W., Li, K., Gagnon, J., Wang, Y., Raney, T., Chen, J., Chen, Y., Okunuki, Y.
     'name of csv_file (string)': Path to the CSV file containing annotations.\
     'root_dir (string)': Directory containing all images.
 3. Combine the results using majority voting for ensemble prediction.
+
+## A tutorial for result interpretation using gradCAM:
+
 ```python
 import os
 import numpy as np
