@@ -40,6 +40,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model_name = 'regnety_32'
 pheno_name = 'glaucoma'
 
+# examples of model checkpoints, https://zenodo.org/records/15711816
 cmodel_ckpt = f'../model_ckpt/{pheno_name}_{model_name}_v0.pth'
 csv_file = f'../result_biomarker_interpretation/input_imgs/imgs_{pheno_name}.csv'
 img_dir = '../result_biomarker_interpretation/input_imgs/'
