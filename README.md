@@ -86,9 +86,6 @@ run_save_gcam_results(cam=cam,
 ## A tutorial for predicting age and gender:
 
 ```python
-
-```
-```python
 import os
 import numpy as np
 import pandas as pd
