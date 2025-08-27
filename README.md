@@ -8,8 +8,8 @@ Hu, W., Li, K., Gagnon, J., Wang, Y., Raney, T., Chen, J., Chen, Y., Okunuki, Y.
 
 ## Steps:
 1. Install cuda
-2. 'conda create --name <name_of_your_env>'      or    'conda create -p <path_of_your_env>'\
-   'conda activate <name_of_your_env>'\
+2. `conda create --name <name_of_your_env>`      or    `conda create -p <path_of_your_env>`\
+   `conda activate <name_of_your_env>`\
    Install pytorch
    [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 3. git clone the repo \
