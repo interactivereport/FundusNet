@@ -6,7 +6,7 @@
 #SBATCH --nodes=1 
 #SBATCH --ntasks-per-node=1 
 #SBATCH --cpus-per-task=4
-#SBATCH -a 0-5
+#SBATCH -a 0  ## 0, 0-5, ...
 #SBATCH -o gender.regnety_32.v%a.out
 #SBATCH -e gender.regnety_32.v%a.err
 module load anaconda3 ## the module name could be slightly different in your system
