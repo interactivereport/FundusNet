@@ -12,16 +12,17 @@ Hu, W., Li, K., Gagnon, J., Wang, Y., Raney, T., Chen, J., Chen, Y., Okunuki, Y.
    `conda activate <name_of_your_env>`\
    Install pytorch
    [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
-3. git clone the repo \
+   Example, `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126`
+4. git clone the repo \
    `git clone https://github.com/interactivereport/FundusNet.git`
-4. install packages \
+5. install packages \
    `pip install -r requirements.txt`
-5. Execute either shgender.sh or shage.sh to run individual CNN or ViT models:\
+6. Execute either shgender.sh or shage.sh to run individual CNN or ViT models:\
    a. This process will split the image dataset into training and testing sets, train the CNN/ViT models on the training data, and evaluate them on the test data.\
    b. Users must provide the following inputs:\
     'name of csv_file (string)': Path to the CSV file containing annotations.\
     'root_dir (string)': Directory containing all images.
-6. Combine the results using majority voting for ensemble prediction.
+7. Combine the results using majority voting for ensemble prediction.
 
 ## A tutorial for result interpretation using gradCAM:
 
