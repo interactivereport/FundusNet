@@ -11,7 +11,7 @@ Hu, W., Li, K., Gagnon, J., Wang, Y., Raney, T., Chen, J., Chen, Y., Okunuki, Y.
 2. `conda create --name <name_of_your_env>`      or    `conda create -p <path_of_your_env>`\
    `conda activate <name_of_your_env>`\
    Install pytorch
-   [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+   [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) \
    Example, `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126`
 4. git clone the repo \
    `git clone https://github.com/interactivereport/FundusNet.git`
